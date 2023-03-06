@@ -12,3 +12,10 @@ print()
 data = ['\U0001F95A', '\U0001F414']  # <5>
 print("unsorted:", data)
 print("sorted:", sorted(data))
+
+print("\U0001F92F")
+
+#  <= FFFF    \uxxxx    pad with 0 as needed  \u00B0
+#  > FFFF     \Uxxxxxxxx                      \U0001F95A
+
+print("\U0001f608")
