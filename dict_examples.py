@@ -43,3 +43,8 @@ print(f"airports.setdefault('CMH', 'Columbus'): {airports.setdefault('CMH', 'Col
 
 print(f"airports: {airports}")
 
+for code, city in airports.items():
+    print(code, city)
+print('-' * 60)
+print(f"airports.items(): {airports.items()}")
+
